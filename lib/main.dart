@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-
+import 'screens/weather_page.dart';
 void main() {
   runApp(const Weatherapp());
 }
@@ -10,8 +10,6 @@ class Weatherapp extends StatelessWidget {
   // This widget is the root of your application.
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
-      
-    );
+    return MaterialApp(home: WeatherPage(),);
   }
 }
